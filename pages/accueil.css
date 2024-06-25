@@ -1,0 +1,66 @@
+.navbar-expand-sm .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content:flex-end;
+    padding-right: 50px;
+}
+.navbar-nav li a{
+    color: rgb(39, 171, 219);
+    font-weight: 600;
+}
+.my-lg-0 {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.input-group{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.bg-light {
+    height: 80px;
+}
+header{
+    box-shadow: 1px 1px 5px rgb(131, 128, 125);
+}
+.navbar-brand{
+    padding-left: 10px;
+    color:rgb(241, 145, 1);
+    font-weight: 800;
+}
+.col-md-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;  
+    gap:35px;
+    padding: 50px;
+}
+.col-md-8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:40px;
+}
+.firsttitle{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+a.link{
+    text-decoration: none;
+    color:grey;
+}
+@media only screen and (max-width: 450px){
+    .container{
+        padding-top: 150px;
+    }
+    .d-flex{
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    input.form-control.me-2{
+        width: 250px !important;
+    }
+}
